@@ -16,5 +16,3 @@ You must save your notebook with the naming convention `YYYY-MM-DD-*.md`.  Examp
 
 
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
-
-{% include youtube.html content="https://youtu.be/Ll50l3fsoYs" %}

@@ -95,8 +95,13 @@ key: value
 {% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
 
 
+## Youcards
+
+{% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
+
 ## Footnotes
 
+{% include youtube.html content="https://youtu.be/Ll50l3fsoYs" %}
 
 
 [^1]: This is the footnote.
