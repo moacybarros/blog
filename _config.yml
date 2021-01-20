@@ -95,6 +95,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-twitter-plugin
+  - jekyll-youtube
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
