@@ -1,1 +1,1 @@
-Sitemap: www.moacybarros.com/blog/sitemap.xml
+Sitemap: moacybarros.com/blog/sitemap.xml
