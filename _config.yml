@@ -95,6 +95,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-twitter-plugin
+  - jekyll-youtube
 #  - jekyll-youtube
 
 # See https://jekyllrb.com/docs/pagination/
