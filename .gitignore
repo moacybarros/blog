@@ -12,3 +12,7 @@ _notebooks/.ipynb_checkpoints
 .netlify
 .tweet-cache
 __pycache__
+
+# Local env patterns
+.DS_Store
+.idea/
