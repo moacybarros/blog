@@ -13,6 +13,17 @@
   
     
         ,"post1": {
+            "title": "Test Markdown Post From Notion Io",
+            "content": "Getting Started . 👋 Welcome to Notion! . Here are the basics: . Click anywhere and just start typing | Hit / to see all the types of content you can add - headers, videos, sub pages, etc. . Example sub page . | Highlight any text, and use the menu that pops up to style your writing however you like | See the ⋮⋮ to the left of this checkbox on hover? Click and drag to move this line | Click the + New Page button at the bottom of your sidebar to add a new page | Click Templates in your sidebar to get started with pre-built pages | This is a toggle block. Click the little triangle to see more useful tips! Template Gallery: More templates built by the Notion community | Help &amp; Support: **Guides and FAQs for everything in Notion | Stay organized with your sidebar and nested pages: . . | . | . See it in action: . https://youtu.be/TL_N2pmh9O0 1 minute . https://youtu.be/FXIrojSK3Jo 4 minutes . https://youtu.be/2Pwzff-uffU 2 minutes . https://youtu.be/O8qdvSxDYNY 2 minutes . Visit our YouTube channel to watch 50+ more tutorials . 👉Have a question? Click the ? at the bottom right for more guides, or to send us a message. .",
+            "url": "https://moacybarros.com/2020/01/19/test-markdown-post-from-notion-io.html",
+            "relUrl": "/2020/01/19/test-markdown-post-from-notion-io.html",
+            "date": " • Jan 19, 2020"
+        }
+        
+    
+  
+    
+        ,"post2": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . YEAR-MONTH-DAY-filename.md . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Tweetcards . Altair 4.0 is released! https://t.co/PCyrIOTcvvTry it with: pip install -U altairThe full list of changes is at https://t.co/roXmzcsT58 ...read on for some highlights. pic.twitter.com/vWJ0ZveKbZ . &mdash; Jake VanderPlas (@jakevdp) December 11, 2019 Footnotes . This is the footnote. &#8617; . |",
             "url": "https://moacybarros.com/markdown/2020/01/14/test-markdown-post.html",
