@@ -1,1 +1,1 @@
-Sitemap: https://moacybarros.github.io/blog/sitemap.xml
+Sitemap: www.moacybarros.com/blog/sitemap.xml
