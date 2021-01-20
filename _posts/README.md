@@ -13,3 +13,6 @@ You must save your notebook with the naming convention `YYYY-MM-DD-*.md`.  Examp
 
 - [Jekyll posts](https://jekyllrb.com/docs/posts/)
 - [Example markdown post](https://github.com/fastai/fastpages/blob/master/_posts/2020-01-14-test-markdown-post.md)
+
+
+[[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
