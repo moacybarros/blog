@@ -6,5 +6,3 @@ categories: [markdown]
 title: "Pandora Box" a toy project for trying data technologies
 ---
 # "Pandora Box" a toy project for trying data technologies
-
-:construction: :construction: :construction: :construction: :construction: **TBD** :construction: :construction: :construction: :construction: :construction:
