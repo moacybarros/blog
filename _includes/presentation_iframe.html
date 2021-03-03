@@ -1,0 +1,9 @@
+{% if include.content contains  ".html" %}
+      {% assign presentation_path = include.content %}
+   {% else %}
+      {% assign presentation_path = "/slides/" | append: include.content | append: "/index.html" }}"  %}
+   {% endif %}
+<div>
+   <iframe src="{{ presentation_path }}" height="630" width="1120" allowfullscreen="" frameborder="0">
+   </iframe>
+</div>

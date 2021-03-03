@@ -45,7 +45,15 @@ minima:
 # Set this to true to get LaTeX math equation support
 use_math: 
 
-# Set this to true to display the summary of your blog post under your title on the Home page.
+# Set this to true to display the su<!-- Global site tag (gtag.js) - Google Analytics -->
+#<script async src="https://www.googletagmanager.com/gtag/js?id=UA-187582008-1"></script>
+#<script>
+#  window.dataLayer = window.dataLayer || [];
+#  function gtag(){dataLayer.push(arguments);}
+#  gtag('js', new Date());
+#
+#  gtag('config', 'UA-187582008-1');
+#</script>mmary of your blog post under your title on the Home page.
 show_description: true
 
 # Set this to true to display image previews on home page, if they exist

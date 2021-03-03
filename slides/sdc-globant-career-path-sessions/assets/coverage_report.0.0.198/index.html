@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">68%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>9461</td>
+                <td>3010</td>
+                <td>0</td>
+                <td class="right" data-ratio="6451 9461">68%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="airflow___init___py.html">airflow/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs___init___py.html">libs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs___init___py.html">libs/sdc_etl_libs/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_API_py.html">libs/sdc_etl_libs/api_helpers/API.py</a></td>
+                <td>61</td>
+                <td>40</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 61">34%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_APIUtils_py.html">libs/sdc_etl_libs/api_helpers/APIUtils.py</a></td>
+                <td>49</td>
+                <td>18</td>
+                <td>0</td>
+                <td class="right" data-ratio="31 49">63%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_AsyncOAuthAPI_py.html">libs/sdc_etl_libs/api_helpers/AsyncOAuthAPI.py</a></td>
+                <td>8</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 8">88%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_OAuthAPI_py.html">libs/sdc_etl_libs/api_helpers/OAuthAPI.py</a></td>
+                <td>54</td>
+                <td>15</td>
+                <td>0</td>
+                <td class="right" data-ratio="39 54">72%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_SDCAPIExceptions_py.html">libs/sdc_etl_libs/api_helpers/SDCAPIExceptions.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers___init___py.html">libs/sdc_etl_libs/api_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_ExactTarget_ExactTarget_py.html">libs/sdc_etl_libs/api_helpers/apis/ExactTarget/ExactTarget.py</a></td>
+                <td>100</td>
+                <td>65</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 100">35%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_ExactTarget_ExactTargetHelpers_py.html">libs/sdc_etl_libs/api_helpers/apis/ExactTarget/ExactTargetHelpers.py</a></td>
+                <td>22</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 22">27%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_ExactTarget___init___py.html">libs/sdc_etl_libs/api_helpers/apis/ExactTarget/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Google_EnhancedConversionAlphaAPI_py.html">libs/sdc_etl_libs/api_helpers/apis/Google/EnhancedConversionAlphaAPI.py</a></td>
+                <td>58</td>
+                <td>38</td>
+                <td>0</td>
+                <td class="right" data-ratio="20 58">34%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Google___init___py.html">libs/sdc_etl_libs/api_helpers/apis/Google/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Impact_ImpactAPI_py.html">libs/sdc_etl_libs/api_helpers/apis/Impact/ImpactAPI.py</a></td>
+                <td>44</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="44 44">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Impact___init___py.html">libs/sdc_etl_libs/api_helpers/apis/Impact/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_NewRelic_NewRelic_py.html">libs/sdc_etl_libs/api_helpers/apis/NewRelic/NewRelic.py</a></td>
+                <td>82</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="62 82">76%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_NewRelic___init___py.html">libs/sdc_etl_libs/api_helpers/apis/NewRelic/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Sharepoint___init___py.html">libs/sdc_etl_libs/api_helpers/apis/Sharepoint/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Sharepoint_sharepoint_py.html">libs/sdc_etl_libs/api_helpers/apis/Sharepoint/sharepoint.py</a></td>
+                <td>99</td>
+                <td>21</td>
+                <td>0</td>
+                <td class="right" data-ratio="78 99">79%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_StandardCyborg_StandardCyborgDataPipeline_py.html">libs/sdc_etl_libs/api_helpers/apis/StandardCyborg/StandardCyborgDataPipeline.py</a></td>
+                <td>259</td>
+                <td>163</td>
+                <td>0</td>
+                <td class="right" data-ratio="96 259">37%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_StandardCyborg_StandardCyborgUtils_py.html">libs/sdc_etl_libs/api_helpers/apis/StandardCyborg/StandardCyborgUtils.py</a></td>
+                <td>58</td>
+                <td>11</td>
+                <td>0</td>
+                <td class="right" data-ratio="47 58">81%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_StandardCyborg___init___py.html">libs/sdc_etl_libs/api_helpers/apis/StandardCyborg/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_TikTok_TikTokAPI_py.html">libs/sdc_etl_libs/api_helpers/apis/TikTok/TikTokAPI.py</a></td>
+                <td>96</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="95 96">99%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_TikTok___init___py.html">libs/sdc_etl_libs/api_helpers/apis/TikTok/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_TimeControl_TimeControl_py.html">libs/sdc_etl_libs/api_helpers/apis/TimeControl/TimeControl.py</a></td>
+                <td>69</td>
+                <td>7</td>
+                <td>0</td>
+                <td class="right" data-ratio="62 69">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_TimeControl___init___py.html">libs/sdc_etl_libs/api_helpers/apis/TimeControl/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_UPS_UPS_py.html">libs/sdc_etl_libs/api_helpers/apis/UPS/UPS.py</a></td>
+                <td>90</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="87 90">97%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_UPS___init___py.html">libs/sdc_etl_libs/api_helpers/apis/UPS/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Ultipro_Ultipro_py.html">libs/sdc_etl_libs/api_helpers/apis/Ultipro/Ultipro.py</a></td>
+                <td>27</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 27">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Ultipro_UltiproRESTAPIs_py.html">libs/sdc_etl_libs/api_helpers/apis/Ultipro/UltiproRESTAPIs.py</a></td>
+                <td>144</td>
+                <td>87</td>
+                <td>0</td>
+                <td class="right" data-ratio="57 144">40%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Ultipro_UltiproTimeManagement_py.html">libs/sdc_etl_libs/api_helpers/apis/Ultipro/UltiproTimeManagement.py</a></td>
+                <td>72</td>
+                <td>18</td>
+                <td>0</td>
+                <td class="right" data-ratio="54 72">75%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Ultipro___init___py.html">libs/sdc_etl_libs/api_helpers/apis/Ultipro/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Verizon_VerizonAPI_py.html">libs/sdc_etl_libs/api_helpers/apis/Verizon/VerizonAPI.py</a></td>
+                <td>167</td>
+                <td>29</td>
+                <td>0</td>
+                <td class="right" data-ratio="138 167">83%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis_Verizon___init___py.html">libs/sdc_etl_libs/api_helpers/apis/Verizon/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_api_helpers_apis___init___py.html">libs/sdc_etl_libs/api_helpers/apis/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_aws_helpers___init___py.html">libs/sdc_etl_libs/aws_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_aws_helpers_aws_exceptions_py.html">libs/sdc_etl_libs/aws_helpers/aws_exceptions.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_aws_helpers_aws_helpers_py.html">libs/sdc_etl_libs/aws_helpers/aws_helpers.py</a></td>
+                <td>385</td>
+                <td>328</td>
+                <td>0</td>
+                <td class="right" data-ratio="57 385">15%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_Database_py.html">libs/sdc_etl_libs/database_helpers/Database.py</a></td>
+                <td>23</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 23">74%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_DatabaseFactory_py.html">libs/sdc_etl_libs/database_helpers/DatabaseFactory.py</a></td>
+                <td>21</td>
+                <td>11</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 21">48%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_ODBCDatabase_py.html">libs/sdc_etl_libs/database_helpers/ODBCDatabase.py</a></td>
+                <td>96</td>
+                <td>77</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 96">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_ODBCNetsuite_py.html">libs/sdc_etl_libs/database_helpers/ODBCNetsuite.py</a></td>
+                <td>22</td>
+                <td>13</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 22">41%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_SDCQueryHelpers_py.html">libs/sdc_etl_libs/database_helpers/SDCQueryHelpers.py</a></td>
+                <td>49</td>
+                <td>39</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 49">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_Snowflake___init___py.html">libs/sdc_etl_libs/database_helpers/Snowflake/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_Snowflake_snowflake_ddl_helpers_py.html">libs/sdc_etl_libs/database_helpers/Snowflake/snowflake_ddl_helpers.py</a></td>
+                <td>74</td>
+                <td>55</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 74">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers_SnowflakeDatabase_py.html">libs/sdc_etl_libs/database_helpers/SnowflakeDatabase.py</a></td>
+                <td>232</td>
+                <td>173</td>
+                <td>0</td>
+                <td class="right" data-ratio="59 232">25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_database_helpers___init___py.html">libs/sdc_etl_libs/database_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_hashicorp_helpers___init___py.html">libs/sdc_etl_libs/hashicorp_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_hashicorp_helpers_hashicorp_enums_py.html">libs/sdc_etl_libs/hashicorp_helpers/hashicorp_enums.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_hashicorp_helpers_vault_py.html">libs/sdc_etl_libs/hashicorp_helpers/vault.py</a></td>
+                <td>64</td>
+                <td>51</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 64">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_pgp_helpers___init___py.html">libs/sdc_etl_libs/pgp_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_pgp_helpers_local_pgp_py.html">libs/sdc_etl_libs/pgp_helpers/local_pgp.py</a></td>
+                <td>63</td>
+                <td>32</td>
+                <td>0</td>
+                <td class="right" data-ratio="31 63">49%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_pgp_helpers_pgp_py.html">libs/sdc_etl_libs/pgp_helpers/pgp.py</a></td>
+                <td>21</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 21">57%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_credentials___init___py.html">libs/sdc_etl_libs/sdc_credentials/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_credentials_sdc_endpoint_credentials_py.html">libs/sdc_etl_libs/sdc_credentials/sdc_endpoint_credentials.py</a></td>
+                <td>56</td>
+                <td>11</td>
+                <td>0</td>
+                <td class="right" data-ratio="45 56">80%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_credentials_secrets_enum_py.html">libs/sdc_etl_libs/sdc_credentials/secrets_enum.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_SDCDataExchange_py.html">libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py</a></td>
+                <td>387</td>
+                <td>318</td>
+                <td>0</td>
+                <td class="right" data-ratio="69 387">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_SDCDataExchangeEndpoint_py.html">libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchangeEndpoint.py</a></td>
+                <td>17</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 17">47%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_SDCDataExchangeEndpointFactory_py.html">libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchangeEndpointFactory.py</a></td>
+                <td>23</td>
+                <td>13</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 23">43%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_SDCDataExchangeEnums_py.html">libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchangeEnums.py</a></td>
+                <td>35</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 35">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange___init___py.html">libs/sdc_etl_libs/sdc_data_exchange/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_loggers_SDCLoggerFactory_py.html">libs/sdc_etl_libs/sdc_data_exchange_loggers/SDCLoggerFactory.py</a></td>
+                <td>8</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 8">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_loggers_SDCSnowflakeLogger_SDCSnowflakeLogger_py.html">libs/sdc_etl_libs/sdc_data_exchange_loggers/SDCSnowflakeLogger/SDCSnowflakeLogger.py</a></td>
+                <td>268</td>
+                <td>49</td>
+                <td>0</td>
+                <td class="right" data-ratio="219 268">82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_loggers_SDCSnowflakeLogger_SDCSnowflakeLoggerEnums_py.html">libs/sdc_etl_libs/sdc_data_exchange_loggers/SDCSnowflakeLogger/SDCSnowflakeLoggerEnums.py</a></td>
+                <td>148</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="148 148">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_loggers_SDCSnowflakeLogger___init___py.html">libs/sdc_etl_libs/sdc_data_exchange_loggers/SDCSnowflakeLogger/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_exchange_loggers___init___py.html">libs/sdc_etl_libs/sdc_data_exchange_loggers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema___init___py.html">libs/sdc_etl_libs/sdc_data_schema/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema_schema_enums_py.html">libs/sdc_etl_libs/sdc_data_schema/schema_enums.py</a></td>
+                <td>413</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="413 413">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema_schema_exceptions_py.html">libs/sdc_etl_libs/sdc_data_schema/schema_exceptions.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema_schema_test_enums_py.html">libs/sdc_etl_libs/sdc_data_schema/schema_test_enums.py</a></td>
+                <td>75</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="75 75">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema_schema_toolbox_py.html">libs/sdc_etl_libs/sdc_data_schema/schema_toolbox.py</a></td>
+                <td>184</td>
+                <td>109</td>
+                <td>0</td>
+                <td class="right" data-ratio="75 184">41%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema_schema_toolbox_enums_py.html">libs/sdc_etl_libs/sdc_data_schema/schema_toolbox_enums.py</a></td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 18">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_schema_schema_validation_py.html">libs/sdc_etl_libs/sdc_data_schema/schema_validation.py</a></td>
+                <td>377</td>
+                <td>26</td>
+                <td>0</td>
+                <td class="right" data-ratio="351 377">93%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation___init___py.html">libs/sdc_etl_libs/sdc_data_validation/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation.py</a></td>
+                <td>125</td>
+                <td>38</td>
+                <td>0</td>
+                <td class="right" data-ratio="87 125">70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_enums_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_enums.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_exceptions_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_exceptions.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 7">71%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_quality_test_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_quality_test.py</a></td>
+                <td>16</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 16">25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_test_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_test.py</a></td>
+                <td>36</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 36">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_test_enums_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_test_enums.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_test_factory_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_test_factory.py</a></td>
+                <td>13</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 13">92%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_data_validation_toolbox_py.html">libs/sdc_etl_libs/sdc_data_validation/data_validation_toolbox.py</a></td>
+                <td>32</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="30 32">94%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_validation_tests___init___py.html">libs/sdc_etl_libs/sdc_data_validation/validation_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_validation_tests_column_check_py.html">libs/sdc_etl_libs/sdc_data_validation/validation_tests/column_check.py</a></td>
+                <td>71</td>
+                <td>58</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 71">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_data_validation_validation_tests_column_unique_py.html">libs/sdc_etl_libs/sdc_data_validation/validation_tests/column_unique.py</a></td>
+                <td>42</td>
+                <td>19</td>
+                <td>0</td>
+                <td class="right" data-ratio="23 42">55%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_Dataframe_py.html">libs/sdc_etl_libs/sdc_dataframe/Dataframe.py</a></td>
+                <td>524</td>
+                <td>262</td>
+                <td>0</td>
+                <td class="right" data-ratio="262 524">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_SDCDataframeEnums_py.html">libs/sdc_etl_libs/sdc_dataframe/SDCDataframeEnums.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="28 28">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe___init___py.html">libs/sdc_etl_libs/sdc_dataframe/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_sdc_dataframe_helpers_py.html">libs/sdc_etl_libs/sdc_dataframe/sdc_dataframe_helpers.py</a></td>
+                <td>51</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="right" data-ratio="27 51">53%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_SDCUDF_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/SDCUDF.py</a></td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 3">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_UDFFactory_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/UDFFactory.py</a></td>
+                <td>15</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 15">80%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs___init___py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_pandas_CollapseColumnsPandasUDF_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/pandas/CollapseColumnsPandasUDF.py</a></td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 18">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_pandas_ConcatColumnsPandasUDF_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/pandas/ConcatColumnsPandasUDF.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_pandas_ConvertToDatetimePandasUDF_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/pandas/ConvertToDatetimePandasUDF.py</a></td>
+                <td>12</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 12">92%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_pandas_MD5HashRowPandasUDF_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/pandas/MD5HashRowPandasUDF.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_pandas_PandasUDF_py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/pandas/PandasUDF.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_dataframe_udfs_pandas___init___py.html">libs/sdc_etl_libs/sdc_dataframe/udfs/pandas/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_exchange_endpoints___init___py.html">libs/sdc_etl_libs/sdc_exchange_endpoints/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_exchange_endpoints_database_endpoints_SDCColumnCleanseStylesEnums_py.html">libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCColumnCleanseStylesEnums.py</a></td>
+                <td>16</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_exchange_endpoints_database_endpoints_SDCSnowflakeEndpoint_py.html">libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py</a></td>
+                <td>167</td>
+                <td>110</td>
+                <td>0</td>
+                <td class="right" data-ratio="57 167">34%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_exchange_endpoints_database_endpoints___init___py.html">libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_exchange_endpoints_file_endpoints_SDCSFTPEndpoint_py.html">libs/sdc_etl_libs/sdc_exchange_endpoints/file_endpoints/SDCSFTPEndpoint.py</a></td>
+                <td>140</td>
+                <td>87</td>
+                <td>0</td>
+                <td class="right" data-ratio="53 140">38%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_exchange_endpoints_file_endpoints___init___py.html">libs/sdc_etl_libs/sdc_exchange_endpoints/file_endpoints/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCAvroFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCAvroFile.py</a></td>
+                <td>26</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="25 26">96%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCCSVFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCCSVFile.py</a></td>
+                <td>84</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="76 84">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCEDIFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCEDIFile.py</a></td>
+                <td>44</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="42 44">95%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCExcelFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCExcelFile.py</a></td>
+                <td>36</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 36">97%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCFile.py</a></td>
+                <td>23</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="20 23">87%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCFileFactory_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCFileFactory.py</a></td>
+                <td>42</td>
+                <td>17</td>
+                <td>0</td>
+                <td class="right" data-ratio="25 42">60%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCFileHelpers_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCFileHelpers.py</a></td>
+                <td>114</td>
+                <td>79</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 114">31%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCFileNameHelpers_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCFileNameHelpers.py</a></td>
+                <td>44</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="38 44">86%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCJsonFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCJsonFile.py</a></td>
+                <td>63</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="41 63">65%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCJsonFileHelpers_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCJsonFileHelpers.py</a></td>
+                <td>15</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 15">87%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_SDCParquetFile_py.html">libs/sdc_etl_libs/sdc_file_helpers/SDCParquetFile.py</a></td>
+                <td>30</td>
+                <td>13</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 30">57%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI_SDCEDIConverter_py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/SDCEDIConverter.py</a></td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 4">75%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI_SDCEDIConverterFactory_py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/SDCEDIConverterFactory.py</a></td>
+                <td>11</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 11">73%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI_SDCEDIExceptions_py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/SDCEDIExceptions.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI_SDCEDIObject_py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/SDCEDIObject.py</a></td>
+                <td>111</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="99 111">89%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI_SDCEDIPandasConverter_py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/SDCEDIPandasConverter.py</a></td>
+                <td>70</td>
+                <td>11</td>
+                <td>0</td>
+                <td class="right" data-ratio="59 70">84%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI_SDCEDISparkConverter_py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/SDCEDISparkConverter.py</a></td>
+                <td>10</td>
+                <td>5</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 10">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards_EDI___init___py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/EDI/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers_TechnicalStandards___init___py.html">libs/sdc_etl_libs/sdc_file_helpers/TechnicalStandards/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_file_helpers___init___py.html">libs/sdc_etl_libs/sdc_file_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_FileTransfer_py.html">libs/sdc_etl_libs/sdc_filetransfer/FileTransfer.py</a></td>
+                <td>14</td>
+                <td>5</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 14">64%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_SFTPFileTransfer_py.html">libs/sdc_etl_libs/sdc_filetransfer/SFTPFileTransfer.py</a></td>
+                <td>100</td>
+                <td>74</td>
+                <td>0</td>
+                <td class="right" data-ratio="26 100">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer___init___py.html">libs/sdc_etl_libs/sdc_filetransfer/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_utils___init___py.html">libs/sdc_etl_libs/sdc_filetransfer/utils/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_utils_delete_files_mechanism_AfterNDaysDeleteCriteria_py.html">libs/sdc_etl_libs/sdc_filetransfer/utils/delete_files_mechanism/AfterNDaysDeleteCriteria.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_utils_delete_files_mechanism_DeleteCriteria_py.html">libs/sdc_etl_libs/sdc_filetransfer/utils/delete_files_mechanism/DeleteCriteria.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 7">71%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_utils_delete_files_mechanism_ExistsInTableDeleteCriteria_py.html">libs/sdc_etl_libs/sdc_filetransfer/utils/delete_files_mechanism/ExistsInTableDeleteCriteria.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_utils_delete_files_mechanism_FilenameMatchDeleteCriteria_py.html">libs/sdc_etl_libs/sdc_filetransfer/utils/delete_files_mechanism/FilenameMatchDeleteCriteria.py</a></td>
+                <td>8</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 8">75%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_filetransfer_utils_delete_files_mechanism___init___py.html">libs/sdc_etl_libs/sdc_filetransfer/utils/delete_files_mechanism/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_s3_SDCS3_py.html">libs/sdc_etl_libs/sdc_s3/SDCS3.py</a></td>
+                <td>181</td>
+                <td>153</td>
+                <td>0</td>
+                <td class="right" data-ratio="28 181">15%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_sdc_s3___init___py.html">libs/sdc_etl_libs/sdc_s3/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests___init___py.html">libs/sdc_etl_libs/tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_Google_enhanced_conversion_apha_api_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/Google/enhanced_conversion_apha_api_test.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_Impact_impact_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/Impact/impact_test.py</a></td>
+                <td>51</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="51 51">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_NewRelic___init___py.html">libs/sdc_etl_libs/tests/api_helpers_tests/NewRelic/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_NewRelic_new_relic_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/NewRelic/new_relic_test.py</a></td>
+                <td>37</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 37">95%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_Sharepoint___init___py.html">libs/sdc_etl_libs/tests/api_helpers_tests/Sharepoint/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_Sharepoint_sharepoint_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/Sharepoint/sharepoint_test.py</a></td>
+                <td>55</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="55 55">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_StandardCyborg___init___py.html">libs/sdc_etl_libs/tests/api_helpers_tests/StandardCyborg/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_StandardCyborg_standard_cyborg_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/StandardCyborg/standard_cyborg_test.py</a></td>
+                <td>55</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="54 55">98%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_StandardCyborg_standard_cyborg_utils_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/StandardCyborg/standard_cyborg_utils_test.py</a></td>
+                <td>28</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="27 28">96%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_TikTok_tiktok_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/TikTok/tiktok_test.py</a></td>
+                <td>41</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="41 41">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_Verizon___init___py.html">libs/sdc_etl_libs/tests/api_helpers_tests/Verizon/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_Verizon_verizon_api_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/Verizon/verizon_api_test.py</a></td>
+                <td>111</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="109 111">98%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests___init___py.html">libs/sdc_etl_libs/tests/api_helpers_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_api_utils_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/api_utils_test.py</a></td>
+                <td>34</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="33 34">97%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_exacttarget_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/exacttarget_test.py</a></td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 18">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_timecontrol_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/timecontrol_test.py</a></td>
+                <td>66</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="64 66">97%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_ultipro_rest_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/ultipro_rest_test.py</a></td>
+                <td>33</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="33 33">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_ultipro_tm_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/ultipro_tm_test.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 22">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_api_helpers_tests_ups_quantum_view_test_py.html">libs/sdc_etl_libs/tests/api_helpers_tests/ups_quantum_view_test.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="49 49">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_aws_helpers_tests___init___py.html">libs/sdc_etl_libs/tests/aws_helpers_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_aws_helpers_tests_aws_secrets_test_py.html">libs/sdc_etl_libs/tests/aws_helpers_tests/aws_secrets_test.py</a></td>
+                <td>21</td>
+                <td>15</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 21">29%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests___init___py.html">libs/sdc_etl_libs/tests/dataframe_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests_sdc_dataframe_convert_columns_to_json_test_py.html">libs/sdc_etl_libs/tests/dataframe_tests/sdc_dataframe_convert_columns_to_json_test.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 17">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests_sdc_dataframe_metadata_transformations_test_py.html">libs/sdc_etl_libs/tests/dataframe_tests/sdc_dataframe_metadata_transformations_test.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests_sdc_dataframe_pandas_test_py.html">libs/sdc_etl_libs/tests/dataframe_tests/sdc_dataframe_pandas_test.py</a></td>
+                <td>138</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="138 138">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests_sdc_dataframe_pandas_udf_test_py.html">libs/sdc_etl_libs/tests/dataframe_tests/sdc_dataframe_pandas_udf_test.py</a></td>
+                <td>37</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 37">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests_sdc_dataframe_sql_test_py.html">libs/sdc_etl_libs/tests/dataframe_tests/sdc_dataframe_sql_test.py</a></td>
+                <td>29</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="29 29">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_dataframe_tests_sdc_dataframe_transformations_test_py.html">libs/sdc_etl_libs/tests/dataframe_tests/sdc_dataframe_transformations_test.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="54 54">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_pgp_tests_encrypt_decrypt_test_py.html">libs/sdc_etl_libs/tests/pgp_tests/encrypt_decrypt_test.py</a></td>
+                <td>73</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="71 73">97%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_exchange_loggers_tests_sdc_snowflake_logger_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_data_exchange_loggers_tests/sdc_snowflake_logger_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_exchange_loggers_tests_sdc_snowflake_logger_tests_sdc_snowflake_logger_test_py.html">libs/sdc_etl_libs/tests/sdc_data_exchange_loggers_tests/sdc_snowflake_logger_tests/sdc_snowflake_logger_test.py</a></td>
+                <td>154</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="154 154">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_exchange_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_data_exchange_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_exchange_tests_test_sdc_data_exchange_py.html">libs/sdc_etl_libs/tests/sdc_data_exchange_tests/test_sdc_data_exchange.py</a></td>
+                <td>41</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="25 41">61%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_toolbox_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_toolbox_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_toolbox_tests_basic_tools_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_toolbox_tests/basic_tools_test.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_toolbox_tests_determine_dataframe_from_schema_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_toolbox_tests/determine_dataframe_from_schema_test.py</a></td>
+                <td>24</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 24">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_toolbox_tests_generate_file_output_args_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_toolbox_tests/generate_file_output_args_test.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_toolbox_tests_get_field_names_for_file_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_toolbox_tests/get_field_names_for_file_test.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_toolbox_tests_sql_generation_from_schema_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_toolbox_tests/sql_generation_from_schema_test.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests_schema_validation_allowed_values_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/schema_validation_allowed_values_test.py</a></td>
+                <td>163</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="163 163">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests_schema_validation_data_type_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/schema_validation_data_type_test.py</a></td>
+                <td>79</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="79 79">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests_schema_validation_key_default_values_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/schema_validation_key_default_values_test.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="28 28">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests_schema_validation_list_value_opts_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/schema_validation_list_value_opts_test.py</a></td>
+                <td>75</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="75 75">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests_schema_validation_pii_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/schema_validation_pii_test.py</a></td>
+                <td>50</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="50 50">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_schema_tests_schema_validation_tests_schema_validation_test_py.html">libs/sdc_etl_libs/tests/sdc_data_schema_tests/schema_validation_tests/schema_validation_test.py</a></td>
+                <td>122</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="116 122">95%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_data_validation_tests_data_validation_tests_py.html">libs/sdc_etl_libs/tests/sdc_data_validation_tests/data_validation_tests.py</a></td>
+                <td>48</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="48 48">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_database_helpers___init___py.html">libs/sdc_etl_libs/tests/sdc_database_helpers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_database_helpers_netsuite_odbc_database_test_py.html">libs/sdc_etl_libs/tests/sdc_database_helpers/netsuite_odbc_database_test.py</a></td>
+                <td>15</td>
+                <td>5</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 15">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_database_helpers_snowflake_database_test_py.html">libs/sdc_etl_libs/tests/sdc_database_helpers/snowflake_database_test.py</a></td>
+                <td>15</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 15">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_dataframe_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_dataframe_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_dataframe_tests_sdc_dataframe_helpers_test_py.html">libs/sdc_etl_libs/tests/sdc_dataframe_tests/sdc_dataframe_helpers_test.py</a></td>
+                <td>45</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="45 45">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_endpoint_credentials_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_endpoint_credentials_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_endpoint_credentials_tests_get_credentials_test_py.html">libs/sdc_etl_libs/tests/sdc_endpoint_credentials_tests/get_credentials_test.py</a></td>
+                <td>46</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="44 46">96%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_exchange_endpoints_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_exchange_endpoints_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_exchange_endpoints_tests_file_endpoints_SDCSFTPEndpoint_test_py.html">libs/sdc_etl_libs/tests/sdc_exchange_endpoints_tests/file_endpoints/SDCSFTPEndpoint_test.py</a></td>
+                <td>72</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="72 72">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_exchange_endpoints_tests_file_endpoints___init___py.html">libs/sdc_etl_libs/tests/sdc_exchange_endpoints_tests/file_endpoints/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_avro_file_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_avro_file_test.py</a></td>
+                <td>20</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 20">80%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_csv_file_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_csv_file_test.py</a></td>
+                <td>106</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="106 106">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_dynamic_filename_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_dynamic_filename_test.py</a></td>
+                <td>23</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_edi_file_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_edi_file_test.py</a></td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="36 36">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_excel_file_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_excel_file_test.py</a></td>
+                <td>75</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="73 75">97%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_json_file_helpers_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_json_file_helpers_test.py</a></td>
+                <td>23</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_file_helpers_tests_sdc_json_file_test_py.html">libs/sdc_etl_libs/tests/sdc_file_helpers_tests/sdc_json_file_test.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="54 54">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_filetransfer_tests___init___py.html">libs/sdc_etl_libs/tests/sdc_filetransfer_tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_filetransfer_tests_utils___init___py.html">libs/sdc_etl_libs/tests/sdc_filetransfer_tests/utils/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_filetransfer_tests_utils_delete_file_mechanism_AfterNDaysDeleteCriteria_test_py.html">libs/sdc_etl_libs/tests/sdc_filetransfer_tests/utils/delete_file_mechanism/AfterNDaysDeleteCriteria_test.py</a></td>
+                <td>30</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="30 30">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_filetransfer_tests_utils_delete_file_mechanism_ExistsInTableDeleteCriteria_test_py.html">libs/sdc_etl_libs/tests/sdc_filetransfer_tests/utils/delete_file_mechanism/ExistsInTableDeleteCriteria_test.py</a></td>
+                <td>46</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="46 46">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="libs_sdc_etl_libs_tests_sdc_filetransfer_tests_utils_delete_file_mechanism___init___py.html">libs/sdc_etl_libs/tests/sdc_filetransfer_tests/utils/delete_file_mechanism/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.4</a>,
+            created at 2021-02-11 19:16 +0000
+        </p>
+    </div>
+</div>
+</body>
+</html>

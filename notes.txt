@@ -1,0 +1,3 @@
+# Notes
+
+- Google analytics: https://support.google.com/analytics/answer/10269537?ref_topic=1009620
